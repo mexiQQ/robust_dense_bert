@@ -1,0 +1,1 @@
+textattack attack --model /hdd1/jianwei/workspace/robust_ticket_soups/dense/outputs5/finetune_glue-sst2_lr5e-05_epochs30_seed426_time1682470058769/epoch12 --recipe textfooler --dataset-from-huggingface sst2 --dataset-split validation --num-examples -1 --random-seed 42 --parallel

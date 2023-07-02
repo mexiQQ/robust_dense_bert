@@ -1,0 +1,29 @@
+100
++-------------------------------+---------+
+| Attack Results                |         |
++-------------------------------+---------+
+| Number of successful attacks: | 54      |
+| Number of failed attacks:     | 38      |
+| Number of skipped attacks:    | 8       |
+| Original accuracy:            | 92.0%   |
+| Accuracy under attack:        | 38.0%   |
+| Attack success rate:          | 58.7%   |
+| Average perturbed word %:     | 5.67%   |
+| Average num. words per input: | 244.84  |
+| Avg num queries:              | 1496.08 |
++-------------------------------+---------+
+
+500
++-------------------------------+---------+
+| Attack Results                |         |
++-------------------------------+---------+
+| Number of successful attacks: | 254     |
+| Number of failed attacks:     | 222     |
+| Number of skipped attacks:    | 24      |
+| Original accuracy:            | 95.2%   |
+| Accuracy under attack:        | 44.4%   |
+| Attack success rate:          | 53.36%  |
+| Average perturbed word %:     | 6.66%   |
+| Average num. words per input: | 232.38  |
+| Avg num queries:              | 1686.09 |
++-------------------------------+---------+

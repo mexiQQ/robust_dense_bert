@@ -1,0 +1,94 @@
+Namespace(adam_epsilon=1e-08, bias_correction=True, bsz=32, ckpt_dir=PosixPath('tmp'), dataset_name='glue', debug=False, do_lower_case=True, epochs=10, eval_size=32, force_overwrite='1', lr=2e-05, max_seq_length=128, model_name='/hdd1/jianwei/workspace/OBC/bert/outputs_4x', num_examples=872, num_labels=2, result_file='attack_result.csv', seed=42, task_name='sst2', warmup_ratio=0.1, weight_decay=0.01)
+Making checkpoint directory: tmp/finetune_glue-sst2_lr2e-05_epochs10_seed42_time1682645756345
+bert.encoder.layer.0.attention.self.query 0.7481740315755208
+bert.encoder.layer.0.attention.self.key 0.7476399739583333
+bert.encoder.layer.0.attention.self.value 0.7476603190104167
+bert.encoder.layer.0.attention.output.dense 0.7477247450086806
+bert.encoder.layer.0.intermediate.dense 0.7480744255913628
+bert.encoder.layer.0.output.dense 0.7494718763563368
+bert.encoder.layer.1.attention.self.query 0.7477281358506944
+bert.encoder.layer.1.attention.self.key 0.7474619547526042
+bert.encoder.layer.1.attention.self.value 0.7475908067491319
+bert.encoder.layer.1.attention.output.dense 0.7478908962673612
+bert.encoder.layer.1.intermediate.dense 0.74791505601671
+bert.encoder.layer.1.output.dense 0.7494549221462674
+bert.encoder.layer.2.attention.self.query 0.747650146484375
+bert.encoder.layer.2.attention.self.key 0.7474687364366319
+bert.encoder.layer.2.attention.self.value 0.7476009792751737
+bert.encoder.layer.2.attention.output.dense 0.7479485405815972
+bert.encoder.layer.2.intermediate.dense 0.7480167812771268
+bert.encoder.layer.2.output.dense 0.749434577094184
+bert.encoder.layer.3.attention.self.query 0.7477383083767362
+bert.encoder.layer.3.attention.self.key 0.7474992540147569
+bert.encoder.layer.3.attention.self.value 0.7475992838541667
+bert.encoder.layer.3.attention.output.dense 0.7478705512152778
+bert.encoder.layer.3.intermediate.dense 0.7483283148871528
+bert.encoder.layer.3.output.dense 0.7494557698567708
+bert.encoder.layer.4.attention.self.query 0.7479570176866319
+bert.encoder.layer.4.attention.self.key 0.7475552029079862
+bert.encoder.layer.4.attention.self.value 0.74749755859375
+bert.encoder.layer.4.attention.output.dense 0.7478925916883681
+bert.encoder.layer.4.intermediate.dense 0.7485012478298612
+bert.encoder.layer.4.output.dense 0.7494557698567708
+bert.encoder.layer.5.attention.self.query 0.7479892306857638
+bert.encoder.layer.5.attention.self.key 0.7477467854817708
+bert.encoder.layer.5.attention.self.value 0.7474602593315972
+bert.encoder.layer.5.attention.output.dense 0.7479315863715278
+bert.encoder.layer.5.intermediate.dense 0.7485677931043837
+bert.encoder.layer.5.output.dense 0.749458736843533
+bert.encoder.layer.6.attention.self.query 0.748016357421875
+bert.encoder.layer.6.attention.self.key 0.7478756374782987
+bert.encoder.layer.6.attention.self.value 0.7474958631727431
+bert.encoder.layer.6.attention.output.dense 0.7479129367404513
+bert.encoder.layer.6.intermediate.dense 0.7486368815104167
+bert.encoder.layer.6.output.dense 0.7494689093695747
+bert.encoder.layer.7.attention.self.query 0.7481028238932292
+bert.encoder.layer.7.attention.self.key 0.7479654947916667
+bert.encoder.layer.7.attention.self.value 0.7474687364366319
+bert.encoder.layer.7.attention.output.dense 0.747894287109375
+bert.encoder.layer.7.intermediate.dense 0.748626708984375
+bert.encoder.layer.7.output.dense 0.7494663662380643
+bert.encoder.layer.8.attention.self.query 0.7481587727864583
+bert.encoder.layer.8.attention.self.key 0.7480807834201388
+bert.encoder.layer.8.attention.self.value 0.747467041015625
+bert.encoder.layer.8.attention.output.dense 0.7479417588975694
+bert.encoder.layer.8.intermediate.dense 0.7485991583930122
+bert.encoder.layer.8.output.dense 0.7494595845540364
+bert.encoder.layer.9.attention.self.query 0.7480807834201388
+bert.encoder.layer.9.attention.self.key 0.7481519911024306
+bert.encoder.layer.9.attention.self.value 0.7475111219618056
+bert.encoder.layer.9.attention.output.dense 0.7479248046875
+bert.encoder.layer.9.intermediate.dense 0.7483024597167969
+bert.encoder.layer.9.output.dense 0.749442630343967
+bert.encoder.layer.10.attention.self.query 0.7483130560980903
+bert.encoder.layer.10.attention.self.key 0.7481689453125
+bert.encoder.layer.10.attention.self.value 0.7474636501736112
+bert.encoder.layer.10.attention.output.dense 0.7477484809027778
+bert.encoder.layer.10.intermediate.dense 0.7483990987141926
+bert.encoder.layer.10.output.dense 0.7494549221462674
+bert.encoder.layer.11.attention.self.query 0.748443603515625
+bert.encoder.layer.11.attention.self.key 0.7480383978949653
+bert.encoder.layer.11.attention.self.value 0.7474602593315972
+bert.encoder.layer.11.attention.output.dense 0.747894287109375
+bert.encoder.layer.11.intermediate.dense 0.7481062147352431
+bert.encoder.layer.11.output.dense 0.7494324578179253
+bert.pooler.dense 0.0
+classifier 0.0
+Epoch: 0, Loss:  0.2539, Lr:  2.000e-05, Dev_Accuracy: 0.860091743119266
+**** Test Accuracy: 0.860091743119266, Test_Loss: 0.3823456434266894
+Epoch: 1, Loss:  0.1342, Lr:  1.778e-05, Dev_Accuracy: 0.8876146788990824
+**** Test Accuracy: 0.8876146788990824, Test_Loss: 0.3749410534011453
+Epoch: 2, Loss:  0.0919, Lr:  1.555e-05, Dev_Accuracy: 0.8899082568807338
+**** Test Accuracy: 0.8899082568807338, Test_Loss: 0.4299395959824308
+Epoch: 3, Loss:  0.0654, Lr:  1.333e-05, Dev_Accuracy: 0.8922018348623852
+**** Test Accuracy: 0.8922018348623852, Test_Loss: 0.46150154939719445
+Epoch: 4, Loss:  0.0508, Lr:  1.111e-05, Dev_Accuracy: 0.8876146788990824
+Epoch: 5, Loss:  0.0394, Lr:  8.886e-06, Dev_Accuracy: 0.8910550458715595
+Epoch: 6, Loss:  0.0328, Lr:  6.664e-06, Dev_Accuracy: 0.8887614678899082
+Epoch: 7, Loss:  0.0283, Lr:  4.441e-06, Dev_Accuracy: 0.8922018348623852
+Epoch: 8, Loss:  0.0252, Lr:  2.218e-06, Dev_Accuracy: 0.8887614678899082
+Epoch: 9, Loss:  0.0220, Lr:  0.000e+00, Dev_Accuracy: 0.8887614678899082
+**** Best dev metric: 0.8922018348623852 in Epoch: 3
+**** Best Test metric: 0.8922018348623852 in Epoch: 3
+Last epoch test_accuracy: 0.8887614678899082, test_loss: 0.6294963758970987
+Spend time: 0.38305555555555554

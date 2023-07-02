@@ -1,0 +1,102 @@
+Making checkpoint directory: outputs/finetune_bert-base-uncased_glue-sst2_lr2e-05_epochs3_seed42
+Epoch: 0, Loss:  0.2420, Lr:  1.481e-05, Dev_Accuracy: 0.9220183486238531
+**** Test Accuracy: 0.9220183486238531, Test_Loss: 0.20524580776691365
+Epoch: 1, Loss:  0.1054, Lr:  7.403e-06, Dev_Accuracy: 0.9243119266055044
+**** Test Accuracy: 0.9243119266055044, Test_Loss: 0.20909013639071083
+Epoch: 2, Loss:  0.0614, Lr:  0.000e+00, Dev_Accuracy: 0.9300458715596329
+**** Test Accuracy: 0.9300458715596329, Test_Loss: 0.23084211382748743
+**** Best dev metric: 0.9300458715596329 in Epoch: 2
+**** Best Test metric: 0.9300458715596329 in Epoch: 2
+Last epoch test_accuracy: 0.9300458715596329, test_loss: 0.23084211382748743
+Attack(
+  (search_method): GreedyWordSwapWIR(
+    (wir_method):  delete
+  )
+  (goal_function):  UntargetedClassification
+  (transformation):  WordSwapEmbedding(
+    (max_candidates):  50
+    (embedding):  WordEmbedding
+  )
+  (constraints): 
+    (0): WordEmbeddingDistance(
+        (embedding):  WordEmbedding
+        (min_cos_sim):  0.5
+        (cased):  False
+        (include_unknown_words):  True
+        (compare_against_original):  True
+      )
+    (1): PartOfSpeech(
+        (tagger_type):  nltk
+        (tagset):  universal
+        (allow_verb_noun_swap):  True
+        (compare_against_original):  True
+      )
+    (2): UniversalSentenceEncoder(
+        (metric):  angular
+        (threshold):  0.840845057
+        (window_size):  15
+        (skip_text_shorter_than_window):  True
+        (compare_against_original):  False
+      )
+    (3): RepeatModification
+    (4): StopwordModification
+    (5): InputColumnModification(
+        (matching_column_labels):  ['premise', 'hypothesis']
+        (columns_to_ignore):  {'premise'}
+      )
+  (is_black_box):  True
+) 
+
+
++-------------------------------+--------+
+| Attack Results                |        |
++-------------------------------+--------+
+| Number of successful attacks: | 765    |
+| Number of failed attacks:     | 39     |
+| Number of skipped attacks:    | 68     |
+| Original accuracy:            | 92.2%  |
+| Accuracy under attack:        | 4.47%  |
+| Attack success rate:          | 95.15% |
+| Average perturbed word %:     | 16.97% |
+| Average num. words per input: | 17.4   |
+| Avg num queries:              | 85.28  |
++-------------------------------+--------+
+Attack(
+  (search_method): GreedyWordSwapWIR(
+    (wir_method):  delete
+  )
+  (goal_function):  UntargetedClassification
+  (transformation):  WordSwapEmbedding(
+    (max_candidates):  50
+    (embedding):  WordEmbedding
+  )
+  (constraints): 
+    (0): WordEmbeddingDistance(
+        (embedding):  WordEmbedding
+        (min_cos_sim):  0.5
+        (cased):  False
+        (include_unknown_words):  True
+        (compare_against_original):  True
+      )
+    (1): PartOfSpeech(
+        (tagger_type):  nltk
+        (tagset):  universal
+        (allow_verb_noun_swap):  True
+        (compare_against_original):  True
+      )
+    (2): UniversalSentenceEncoder(
+        (metric):  angular
+        (threshold):  0.840845057
+        (window_size):  15
+        (skip_text_shorter_than_window):  True
+        (compare_against_original):  False
+      )
+    (3): RepeatModification
+    (4): StopwordModification
+    (5): InputColumnModification(
+        (matching_column_labels):  ['premise', 'hypothesis']
+        (columns_to_ignore):  {'premise'}
+      )
+  (is_black_box):  True
+) 
+

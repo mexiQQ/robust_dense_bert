@@ -1,0 +1,1 @@
+textattack attack --model /hdd1/jianwei/workspace/robust_ticket_soups/dense/imdb/outputs2/finetune_imdb_lr3e-05_epochs30_seed426_time1687293371261/epoch21 --recipe textfooler --dataset-from-huggingface imdb --dataset-split test --num-examples 500 --random-seed 42 --parallel

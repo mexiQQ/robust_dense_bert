@@ -1,0 +1,2 @@
+Namespace(adam_epsilon=1e-08, bias_correction=True, bsz=32, ckpt_dir=PosixPath('sparse/outputs2'), dataset_name='glue', debug=False, do_lower_case=True, epochs=5, eval_size=32, force_overwrite='1', lr=2e-06, max_seq_length=128, model_name='/hdd1/jianwei/workspace/OBC/bert/outputs_2x_3', num_examples=872, num_labels=2, result_file='attack_result.csv', seed=42, task_name='sst2', warmup_ratio=0.1, weight_decay=0.01)
+Making checkpoint directory: sparse/outputs2/finetune_glue-sst2_lr2e-06_epochs5_seed42_time1683264233902

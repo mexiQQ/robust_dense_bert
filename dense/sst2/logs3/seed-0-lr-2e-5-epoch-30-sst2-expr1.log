@@ -1,0 +1,39 @@
+Namespace(adam_epsilon=1e-08, bias_correction=True, bsz=32, ckpt_dir=PosixPath('outputs3'), dataset_name='glue', debug=False, do_lower_case=True, epochs=30, eval_size=32, force_overwrite='1', lr=2e-05, max_seq_length=128, model_name='bert-base-uncased', num_examples=872, num_labels=2, result_file='attack_result.csv', seed=0, task_name='sst2', warmup_ratio=0.1, weight_decay=0.01)
+Making checkpoint directory: outputs3/finetune_glue-sst2_lr2e-05_epochs30_seed0_time1680673382721
+Epoch: 0, Loss:  0.3627, Lr:  6.668e-06, Dev_Accuracy: 0.9162844036697246
+**** Test Accuracy: 0.9162844036697246, Test_Loss: 0.22481190147144375
+Epoch: 1, Loss:  0.1621, Lr:  1.334e-05, Dev_Accuracy: 0.915137614678899
+Epoch: 2, Loss:  0.1152, Lr:  2.000e-05, Dev_Accuracy: 0.9231651376146788
+**** Test Accuracy: 0.9231651376146788, Test_Loss: 0.23564861182655522
+Epoch: 3, Loss:  0.0851, Lr:  1.926e-05, Dev_Accuracy: 0.9197247706422017
+Epoch: 4, Loss:  0.0588, Lr:  1.852e-05, Dev_Accuracy: 0.9231651376146788
+Epoch: 5, Loss:  0.0437, Lr:  1.778e-05, Dev_Accuracy: 0.9346330275229356
+**** Test Accuracy: 0.9346330275229356, Test_Loss: 0.22895385298345688
+Epoch: 6, Loss:  0.0317, Lr:  1.704e-05, Dev_Accuracy: 0.9277522935779815
+Epoch: 7, Loss:  0.0261, Lr:  1.630e-05, Dev_Accuracy: 0.918577981651376
+Epoch: 8, Loss:  0.0224, Lr:  1.555e-05, Dev_Accuracy: 0.9231651376146788
+Epoch: 9, Loss:  0.0174, Lr:  1.481e-05, Dev_Accuracy: 0.9208715596330274
+Epoch: 10, Loss:  0.0151, Lr:  1.407e-05, Dev_Accuracy: 0.9174311926605503
+Epoch: 11, Loss:  0.0113, Lr:  1.333e-05, Dev_Accuracy: 0.9139908256880733
+Epoch: 12, Loss:  0.0106, Lr:  1.259e-05, Dev_Accuracy: 0.9139908256880733
+Epoch: 13, Loss:  0.0097, Lr:  1.185e-05, Dev_Accuracy: 0.9128440366972476
+Epoch: 14, Loss:  0.0087, Lr:  1.111e-05, Dev_Accuracy: 0.9208715596330274
+Epoch: 15, Loss:  0.0066, Lr:  1.037e-05, Dev_Accuracy: 0.918577981651376
+Epoch: 16, Loss:  0.0053, Lr:  9.627e-06, Dev_Accuracy: 0.9116972477064219
+Epoch: 17, Loss:  0.0051, Lr:  8.887e-06, Dev_Accuracy: 0.915137614678899
+Epoch: 18, Loss:  0.0045, Lr:  8.146e-06, Dev_Accuracy: 0.9197247706422017
+Epoch: 19, Loss:  0.0035, Lr:  7.405e-06, Dev_Accuracy: 0.8990825688073393
+Epoch: 20, Loss:  0.0025, Lr:  6.664e-06, Dev_Accuracy: 0.9174311926605503
+Epoch: 21, Loss:  0.0036, Lr:  5.923e-06, Dev_Accuracy: 0.9128440366972476
+Epoch: 22, Loss:  0.0022, Lr:  5.182e-06, Dev_Accuracy: 0.9094036697247705
+Epoch: 23, Loss:  0.0015, Lr:  4.441e-06, Dev_Accuracy: 0.9082568807339448
+Epoch: 24, Loss:  0.0012, Lr:  3.700e-06, Dev_Accuracy: 0.9139908256880733
+Epoch: 25, Loss:  0.0008, Lr:  2.960e-06, Dev_Accuracy: 0.9197247706422017
+Epoch: 26, Loss:  0.0011, Lr:  2.219e-06, Dev_Accuracy: 0.9254587155963302
+Epoch: 27, Loss:  0.0006, Lr:  1.478e-06, Dev_Accuracy: 0.9139908256880733
+Epoch: 28, Loss:  0.0006, Lr:  7.370e-07, Dev_Accuracy: 0.918577981651376
+Epoch: 29, Loss:  0.0004, Lr:  0.000e+00, Dev_Accuracy: 0.9197247706422017
+**** Best dev metric: 0.9346330275229356 in Epoch: 5
+**** Best Test metric: 0.9346330275229356 in Epoch: 5
+Last epoch test_accuracy: 0.9197247706422017, test_loss: 0.6013545312120425
+Spend time: 1.0583333333333333

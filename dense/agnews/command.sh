@@ -1,0 +1,1 @@
+textattack attack --model /hdd1/jianwei/workspace/robust_ticket_soups/dense/agnews/outputs2/finetune_ag_news_lr2e-05_epochs30_seed426_time1687066215625/epoch25 --recipe textfooler --dataset-from-huggingface ag_news --dataset-split test --num-examples 500 --random-seed 42 --parallel
